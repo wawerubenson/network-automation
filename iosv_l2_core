@@ -1,0 +1,12 @@
+interface range gigabitEthernet0/1 - 2
+switchport trunk encasulation dot1q
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan all
+
+
+interface range gigabitEthernet1/0 - 3
+switchport trunk encasulation dot1q
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan all
